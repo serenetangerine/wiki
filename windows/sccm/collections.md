@@ -7,12 +7,14 @@ Direct Rules allow SCCM administrators to explicitly add a device to a collectio
 
 ### Query Rules
 Query Rules allow SCCM administrators to add devices to a collection based on a query.
-#### Examples:
-    - Populating a collection from an Active Directory Group
-        - `select SMS_R_SYSTEM.ResourceID,SMS_R_SYSTEM.ResourceType,SMS_R_SYSTEM.Name,SMS_R_SYSTEM.SMSUniqueIdentifier,SMS_R_SYSTEM.ResourceDomainORWorkgroup,SMS_R_SYSTEM.Client from SMS_R_System where SMS_R_System.SecurityGroupName = "<domain>\\<group name>"`
-    - Creating collections of devices with a certain application installed
-        - TODO
+#### Examples
+- Populating a collection from an Active Directory Group
+    - `select SMS_R_SYSTEM.ResourceID,SMS_R_SYSTEM.ResourceType,SMS_R_SYSTEM.Name,SMS_R_SYSTEM.SMSUniqueIdentifier,SMS_R_SYSTEM.ResourceDomainORWorkgroup,SMS_R_SYSTEM.Client from SMS_R_System where SMS_R_System.SecurityGroupName = "<domain>\\<group name>"`
+- Creating collections of devices with a certain application installed
+    - TODO
+
 ### Device Category Rule
+TODO
 
 ### Include Collections
 Include Collections allow SCCM administrators to add another collection to a collection.
