@@ -1,5 +1,5 @@
 ---
-title: silent-installers
+title: packaging 
 description: 
 published: 1
 date: 2022-06-29T00:47:53.778Z
@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2022-06-29T00:34:29.291Z
 ---
 
-# Silent Installers
+# Packaging
 ## Silent Flags
 Below are some common silent flags for various installation media. For `.exe` files, good practice is to run `.\installer.exe /?` to attempt to bring up a help page.
 - `.msi` (these are the most standard media 
