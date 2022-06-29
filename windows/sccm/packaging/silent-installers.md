@@ -2,8 +2,8 @@
 title: silent-installers
 description: 
 published: 1
-date: 2022-06-29T00:47:16.052Z
-tags: 
+date: 2022-06-29T00:47:53.778Z
+tags: sccm
 editor: markdown
 dateCreated: 2022-06-29T00:34:29.291Z
 ---
